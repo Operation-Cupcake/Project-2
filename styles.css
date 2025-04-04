@@ -25,3 +25,8 @@
 	height: 50px;
 	margin-right: 1em;
 	}
+
+.cart-icon {
+	height: 40px;
+	cursor: pointer;
+}
