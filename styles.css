@@ -1,20 +1,22 @@
  .navbar {
-    background-color: pink;
+    background-color: #f493c1;
     width: 100%;
-    padding: 1em ;
-    text-align: center;
-    font-size: 1.5em;
-    font-weight: bold;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    ustify-content: flex-start;
 }
-		
-.navbar .logo {
-    font-size: 2em;
-    font-weight: bold;
-    flex-grow: 1;
-    text-align: center;
-}
-
 .menu-icon {
-    font-size: 2em;
-    margin-left: 1em;
+	font-size: 2em;
+	margin-right: 1em;
 }
+.logo {
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	flex-grow: 1;
+}
+.product-image {
+	width: 1em;
+	height: auto;
+	}
