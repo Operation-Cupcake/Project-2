@@ -7,14 +7,14 @@
     ustify-content: flex-start;
 }
 .menu-icon {
-	font-size: 2em;
+	font-size: 3em;
 	margin-right: 1em;
 }
 .logo {
-	font-size: 2em;
+	font-size: 3em;
 	text-align: center;
 	flex-grow: 1;
-	font-family: 'Lobster', cursive;
+	font-family: 'Lobster';
         }
 .product-image {
 	width: 150px;
