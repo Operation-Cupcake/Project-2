@@ -10,7 +10,7 @@
 	font-size: 3em;
 	margin-right: 1em;
 }
-.logo {
+.company-name {
 	font-size: 3em;
 	text-align: center;
 	flex-grow: 1;
@@ -19,4 +19,9 @@
 .product-image {
 	width: 150px;
 	height: auto;
+	}
+	
+.nav-logo {
+	height: 50px;
+	margin-right: 1em;
 	}
