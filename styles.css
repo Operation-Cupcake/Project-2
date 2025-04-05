@@ -219,14 +219,15 @@ body {
 .hamburger-menu {
     display: none;
     position: absolute;
-    top: 100%; 
+    top: calc(100% + 1px); 
     left: 0;
-    width: 100%;
     background-color: #f493c1;
     z-index: 10;
     padding: 1em;
     box-sizing: border-box;
     border-bottom: 1px solid #ccc; 
+    width: auto; 
+    min-width: 100%; 
 }
 
 .hamburger-menu.show {
@@ -244,6 +245,8 @@ body {
 
 .hamburger-menu .menu-links li {
     margin-bottom: 0.75em;
+    width: 100%; 
+    text-align: center; 
 }
 
 .hamburger-menu .menu-links li:last-child {
@@ -257,8 +260,8 @@ body {
     padding: 0.5em 1em;
     border-radius: 0.3em;
     display: block;
-    width: 100%; 
-    text-align: center;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .hamburger-menu .menu-links a:hover {
