@@ -133,6 +133,8 @@
 	background-color: #f9f9f9;
 	border-radius: 8px;
 	top: 80pxheight: fit-content; 
+	margin-left: auto;
+	margin-right: 3em;
 }
 
 .order-summary h2 {
