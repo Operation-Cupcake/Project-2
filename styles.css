@@ -3,9 +3,8 @@
     width: 100%;
     padding: 1em;
     display: grid;
-    grid-template-columns: auto 1fr auto; 
+    grid-template-columns: 1fr auto 1fr;
     align-items: center;
-    gap: 1em;
 }
 
 .menu-icon {
@@ -14,10 +13,13 @@
 }
 
 .logo {
-    font-size: 3em;
+    font-size: 2em;
+    font-family: 'Lobster', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
     text-align: center;
-    font-family: 'Lobster';
-    justify-self: center; 
 }
 
 .nav-logo {
@@ -25,10 +27,10 @@
 }
 
 .cart-icon {
-    height: 20px;
-    width: 20px;
+    height: 24px;
+    width: 24px;
     cursor: pointer;
-    justify-self: end; 
+    justify-self: end;
 }
 
 .product-image{
