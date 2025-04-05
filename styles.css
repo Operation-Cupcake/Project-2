@@ -13,15 +13,14 @@
     justify-self: start; 
 }
 
-.logo {
+.logo-text {
     font-size: 3em;
     font-family: 'Lobster';
-    text-align: center;
-    grid-column: 2;
 }
 
 .nav-logo {
     height: 50px;
+	width: auto;
 }
 
 .cart-icon {
@@ -40,4 +39,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    grid-column: 2;
 }
