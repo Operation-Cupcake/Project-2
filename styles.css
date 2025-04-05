@@ -209,7 +209,51 @@ body {
     font-size: 0.75em; 
 }
 
+.hamburger-menu {
+    display: none; 
+    position: absolute;
+    top: 100%; 
+    left: 0;
+    width: 100%;
+    background-color: #f493c1;
+    z-index: 10; 
+    padding: 1em;
+    box-sizing: border-box;
+}
 
+.hamburger-menu.show {
+    display: block; 
+}
+
+.hamburger-menu .menu-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.hamburger-menu .menu-links li {
+    margin-bottom: 0.75em;
+}
+
+.hamburger-menu .menu-links li:last-child {
+    margin-bottom: 0;
+}
+
+.hamburger-menu .menu-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+    padding: 0.5em 1em;
+    border-radius: 0.3em;
+    display: block; 
+}
+
+.hamburger-menu .menu-links a:hover {
+    background-color: #e077b0;
+}
 
 
 }
