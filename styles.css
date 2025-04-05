@@ -185,14 +185,12 @@ body {
     position: absolute;
     top: 100%;
     left: 0;
-    width: 100%;
+    max-width: 250px;
     background-color: #fff;
-    border-top: 2px solid #f493c1;
     display: none;
     flex-direction: column;
     z-index: 10;
     padding: 1em 2em;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 .menu-links {
