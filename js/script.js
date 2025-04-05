@@ -1,4 +1,4 @@
- document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
             const productQuantities = document.querySelectorAll('.product .quantity-box');
             const originalPriceDisplay = document.querySelector('.order-summary-top .summary-item strong');
             const totalPriceDisplay = document.querySelector('.order-summary-top .total');
