@@ -127,6 +127,10 @@ body {
 	flex-grow: 1;
 }
 
+.product-info p { 
+  font-size: 1.3em;
+}
+
 .product-info h2 {
 	margin-top: 0;
 	margin-bottom: 5px;
