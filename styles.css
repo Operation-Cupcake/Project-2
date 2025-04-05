@@ -225,7 +225,7 @@ body {
 
 .menu-links {
     list-style: none;
-    display: none;
+    display: none; 
     flex-direction: column;
     gap: 0.75em;
     padding: 0;
@@ -233,7 +233,7 @@ body {
 }
 
 .menu-links.show-links {
-    display: flex; 
+    display: flex;
 }
 
 .menu-links a {

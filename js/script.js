@@ -32,10 +32,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     updateOrderSummary();
 
-    // Hamburger Menu Logic (Modified to hide links initially)
+    
     const menuIcon = document.querySelector('.menu-icon');
     const menu = document.querySelector('.hamburger-menu');
-    const menuLinks = document.querySelector('.menu-links'); 
+    const menuLinks = document.querySelector('.menu-links');
+
     if (menuIcon && menu && menuLinks) {
         menuIcon.addEventListener('click', () => {
             menu.classList.toggle('show');
