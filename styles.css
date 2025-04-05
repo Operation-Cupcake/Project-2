@@ -138,7 +138,6 @@ body {
 .order-summary-top {
     width: 350px;
     padding: 20px;
-    text-align: left;
 }
 
 .order-summary-top h2 {
@@ -160,7 +159,7 @@ body {
     padding-top: 10px;
     border-top: 1px solid #ccc;
     font-weight: bold;
-	text-align: right;
+    text-align: left; 
 }
 
 .container {
