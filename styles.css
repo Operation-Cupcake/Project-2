@@ -60,6 +60,7 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 1em;
+	margin-top: auto;
 }
 
 .footer-left {
@@ -127,10 +128,13 @@
 }
 
  .order-summary {
-	width: 300px;
+	width: 350px; 
 	padding: 20px;
 	background-color: #f9f9f9;
 	border-radius: 8px;
+	margin-left: auto;
+	top: 80px; 
+	height: fit-content; 
 }
 
 .order-summary h2 {
