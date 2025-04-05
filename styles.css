@@ -3,7 +3,7 @@
     width: 100%;
     padding: 1em;
     display: grid;
-    grid-template-columns: 1fr auto 1fr;
+    grid-template-columns: auto 1fr auto;
     align-items: center;
 	position: relative;
 }
