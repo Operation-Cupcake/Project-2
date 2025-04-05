@@ -180,3 +180,39 @@ body {
 	 margin-left: -5em;
 }
 
+
+.hamburger-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: 2px solid #f493c1;
+    display: none;
+    flex-direction: column;
+    z-index: 10;
+    padding: 1em 2em;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.menu-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.menu-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.menu-links a:hover {
+    color: #f493c1;
+}
+
+.hamburger-menu.show {
+    display: flex;
+}

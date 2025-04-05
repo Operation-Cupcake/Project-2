@@ -31,4 +31,20 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     updateOrderSummary();
+
+    // 🧁 Hamburger menu logic
+    const menuIcon = document.querySelector('.menu-icon');
+    const menu = document.querySelector('.hamburger-menu');
+
+    if (menuIcon && menu) {
+        menuIcon.addEventListener('click', () => {
+            menu.classList.toggle('show');
+        });
+
+        document.addEventListener('click', (e) => {
+            if (!menu.contains(e.target) && !menuIcon.contains(e.target)) {
+                menu.classList.remove('show');
+            }
+        });
+    }
 });
