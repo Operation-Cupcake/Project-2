@@ -132,26 +132,15 @@ body {
 	border-radius: 4px;
 }
 
-.order-summary {
-	width: 350px;
-	padding: 20px;
-	background-color: #f9f9f9;
-	border-radius: 8px;
-	top: 80pxheight: fit-content; 
-	margin-left: auto;
-	margin-right: 3em;
+.order-summary-top {
+    width: 100%; 
+    padding: 20px;
+    text-align: center; 
 }
 
-.order-summary h2 {
-	margin-top: 0;
-	margin-bottom: 15px;
-	text-align: center;
-}
-
-.summary-item {
-	display: flex;
-	justify-content: space-between;
-	margin-bottom: 8px;
+.order-summary-top h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
 }
 
 
