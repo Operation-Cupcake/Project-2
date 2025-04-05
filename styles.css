@@ -79,3 +79,20 @@
     width: 24px;
     object-fit: contain;
 }
+
+.footer-logo {
+    height: 40px;
+    object-fit: contain;
+}
+
+.footer-nav a {
+    color: gray;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95em;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
