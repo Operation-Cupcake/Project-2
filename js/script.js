@@ -32,22 +32,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     updateOrderSummary();
 
-    
-     const menuIcon = document.querySelector('.menu-icon');
-    const hamburgerMenu = document.querySelector('.hamburger-menu');
-
-    if (menuIcon && hamburgerMenu) {
-        menuIcon.addEventListener('click', () => {
-            hamburgerMenu.classList.toggle('show');
-        });
-
-        document.addEventListener('click', (e) => {
-            if (!hamburgerMenu.contains(e.target) && !menuIcon.contains(e.target)) {
-                hamburgerMenu.classList.remove('show');
-            }
-        });
-    }
-
     const footerMenuToggle = document.querySelector('.footer-menu-toggle');
     const footerNav = document.querySelector('.footer-nav');
 
