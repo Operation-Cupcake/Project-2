@@ -296,13 +296,12 @@ body {
 
 @media (min-width: 992px) {
     .navbar {
-        grid-template-columns: auto auto 1fr auto; 
-        padding: 1em 2em; 
+        grid-template-columns: auto 1fr auto;
+        padding: 1em 2em;
     }
 
-   
     .hamburger-container {
-        display: block;
+        display: block; 
     }
 
     .logo-wrapper {
@@ -312,30 +311,31 @@ body {
     }
 
     .cart-icon {
-        margin-right: 2em;
+        justify-self: end; 
+        margin-right: 0; 
     }
 
     .container {
-        max-width: 1200px; 
+        max-width: 1200px;
         padding: 20px;
-        flex-direction: row; 
+        flex-direction: row;
         align-items: flex-start;
     }
 
     .product-list {
         flex-direction: row;
-        flex-wrap: wrap; 
-        justify-content: flex-start; 
-        width: 70%; 
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        width: 70%;
     }
 
     .product {
-        width: calc(33% - 20px); 
-        margin-left: 0; 
+        width: calc(33% - 20px);
+        margin-left: 0;
         margin-bottom: 20px;
     }
 
     .order-summary-top {
-        width: 30%; 
+        width: 30%;
     }
 }
