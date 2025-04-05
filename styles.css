@@ -167,4 +167,10 @@ body {
     margin-top: 20px; 
 }
 
+.product-list {
+	flex-grow: 1; 
+	display: flex;
+	flex-direction: column; 
+	gap: 15px; 
+}
 
