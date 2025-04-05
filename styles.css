@@ -62,4 +62,16 @@
     gap: 1em;
 }
 
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2em;
+}
+
 
