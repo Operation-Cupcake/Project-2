@@ -135,12 +135,13 @@ body {
 .order-summary-top {
     width: 100%; 
     padding: 20px;
-    text-align: center; 
+    text-align: left; 
 }
 
 .order-summary-top h2 {
     margin-top: 0;
     margin-bottom: 15px;
+	text-align: center;
 }
 
 .order-summary-top .summary-item {
@@ -155,6 +156,7 @@ body {
     padding-top: 10px;
     border-top: 1px solid #ccc;
     font-weight: bold;
+	text-align: right;
 }
 
 .container {
