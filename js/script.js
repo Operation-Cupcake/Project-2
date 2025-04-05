@@ -33,22 +33,17 @@ document.addEventListener('DOMContentLoaded', function() {
     updateOrderSummary();
 
     
-    const menuIcon = document.querySelector('.menu-icon');
-    const menu = document.querySelector('.hamburger-menu');
-    const menuLinks = document.querySelector('.menu-links');
+     const menuIcon = document.querySelector('.menu-icon');
+    const hamburgerMenu = document.querySelector('.hamburger-menu');
 
-    if (menuIcon && menu && menuLinks) {
-
-        menuIcon.addEventListener('click', (e) => {
-            e.stopPropagation(); 
-            menu.classList.toggle('show'); 
-            menuLinks.classList.toggle('show-links'); 
+    if (menuIcon && hamburgerMenu) {
+        menuIcon.addEventListener('click', () => {
+            hamburgerMenu.classList.toggle('show');
         });
 
         document.addEventListener('click', (e) => {
-            if (!menu.contains(e.target) && !menuIcon.contains(e.target)) {
-                menu.classList.remove('show');
-                menuLinks.classList.remove('show-links');
+            if (!hamburgerMenu.contains(e.target) && !menuIcon.contains(e.target)) {
+                hamburgerMenu.classList.remove('show');
             }
         });
     }
