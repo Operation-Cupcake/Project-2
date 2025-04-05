@@ -139,8 +139,8 @@ body {
 .quantity-box {
 	width: 50px;
 	padding: 5px;
-	border: 1px solid #ccc;
-	border-radius: 4px;
+	border: 0.3em solid black;
+	border-radius: 0.5em;
 }
 
 .order-summary-top {
