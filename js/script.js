@@ -32,18 +32,34 @@ document.addEventListener('DOMContentLoaded', function() {
 
     updateOrderSummary();
 
-    // 🧁 Hamburger menu logic
+    // Hamburger Menu Logic (Modified to hide links initially)
     const menuIcon = document.querySelector('.menu-icon');
     const menu = document.querySelector('.hamburger-menu');
-
-    if (menuIcon && menu) {
+    const menuLinks = document.querySelector('.menu-links'); 
+    if (menuIcon && menu && menuLinks) {
         menuIcon.addEventListener('click', () => {
             menu.classList.toggle('show');
+            menuLinks.classList.toggle('show-links');
         });
 
         document.addEventListener('click', (e) => {
             if (!menu.contains(e.target) && !menuIcon.contains(e.target)) {
                 menu.classList.remove('show');
+                menuLinks.classList.remove('show-links');
+            }
+        });
+    }
+
+    const footerMenuToggle = document.querySelector('.footer-menu-toggle');
+    const footerNav = document.querySelector('.footer-nav');
+
+    if (footerMenuToggle && footerNav) {
+        footerMenuToggle.addEventListener('click', function() {
+            footerNav.classList.toggle('show-menu');
+            if (footerNav.classList.contains('show-menu')) {
+                footerMenuToggle.textContent = 'Hide Footer Menu';
+            } else {
+                footerMenuToggle.textContent = 'Show Footer Menu';
             }
         });
     }
