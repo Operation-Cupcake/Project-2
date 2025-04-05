@@ -32,17 +32,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
     updateOrderSummary();
 
+    
     const menuIcon = document.querySelector('.menu-icon');
     const menu = document.querySelector('.hamburger-menu');
     const menuLinks = document.querySelector('.menu-links');
 
     if (menuIcon && menu && menuLinks) {
-        menuIcon.addEventListener('click', () => {
-            menu.classList.toggle('show'); // Toggle the visibility of the hamburger menu
-            menuLinks.classList.toggle('show-links'); // Toggle the visibility of the links
+
+        menuIcon.addEventListener('click', (e) => {
+            e.stopPropagation(); 
+            menu.classList.toggle('show'); 
+            menuLinks.classList.toggle('show-links'); 
         });
 
-        // Close the menu if user clicks outside
         document.addEventListener('click', (e) => {
             if (!menu.contains(e.target) && !menuIcon.contains(e.target)) {
                 menu.classList.remove('show');
