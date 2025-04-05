@@ -37,8 +37,12 @@ body {
 	margin-right: 4em;
 }
 
-.product-image{
-	width:150px
+.product-image {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    object-fit: contain;
+    flex-shrink: 0;
 }
 
 * {
@@ -174,6 +178,6 @@ body {
 	display: flex;
 	flex-direction: column; 
 	gap: 15px; 
-	 margin-left: -1em;
+	 margin-left: -5em;
 }
 
