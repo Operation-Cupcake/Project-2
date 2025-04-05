@@ -30,3 +30,8 @@
     cursor: pointer;
     justify-self: end; 
 }
+
+.product-image{
+	width:150px
+	height: 200px
+}
