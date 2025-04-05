@@ -50,3 +50,16 @@
     gap: 0.5em;
     grid-column: 2;
 }
+
+.footer {
+    background-color: #333;
+    color: gray;
+    padding: 1.5em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+
