@@ -79,6 +79,7 @@ body {
     padding: 10px;
     border-bottom: 1px solid #eee;
     flex-wrap: wrap;
+	margin-left: 300px;
 }
 
 .product-image {
