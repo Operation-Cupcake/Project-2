@@ -92,3 +92,34 @@
     margin-bottom: 1rem;
     line-height: 1.6;
   }
+
+  .weddings {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .wedding-image {
+    flex: 1 1 40%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Georgia', serif;
+    font-size: 2rem;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .wedding-text {
+    flex: 1 1 60%;
+    background-color: #df6e9e;
+    color: white;
+    padding: 2rem;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
