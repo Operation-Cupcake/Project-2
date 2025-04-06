@@ -124,6 +124,256 @@
     line-height: 1.6;
   }
 
+  .birthdays {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .birthday-image {
+    flex: 1 1 40%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Georgia', serif;
+    font-size: 2rem;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .birthday-text {
+    flex: 1 1 60%;
+    background-color: #df6e9e;
+    color: white;
+    padding: 2rem;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .engagements {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .engagement-image {
+    flex: 1 1 40%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Georgia', serif;
+    font-size: 2rem;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .engagement-text {
+    flex: 1 1 60%;
+    background-color: #df6e9e;
+    color: white;
+    padding: 2rem;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .themes {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .theme-image {
+    flex: 1 1 40%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Georgia', serif;
+    font-size: 2rem;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .theme-text {
+    flex: 1 1 60%;
+    background-color: #df6e9e;
+    color: white;
+    padding: 2rem;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .anniversaries {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .anniversary-image {
+    flex: 1 1 40%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Georgia', serif;
+    font-size: 1.7rem;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .anniversary-text {
+    flex: 1 1 60%;
+    background-color: #df6e9e;
+    color: white;
+    padding: 2rem;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .graduations {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .graduation-image {
+    flex: 1 1 40%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Georgia', serif;
+    font-size: 1.7rem;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .graduation-text {
+    flex: 1 1 60%;
+    background-color: #df6e9e;
+    color: white;
+    padding: 2rem;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .holidays {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .holiday-image {
+    flex: 1 1 40%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Georgia', serif;
+    font-size: 2rem;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .holiday-text {
+    flex: 1 1 60%;
+    background-color: #df6e9e;
+    color: white;
+    padding: 2rem;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .babies {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .baby-image {
+    flex: 1 1 40%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Georgia', serif;
+    font-size: 2rem;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .baby-text {
+    flex: 1 1 60%;
+    background-color: #df6e9e;
+    color: white;
+    padding: 2rem;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .wraps {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .wrap-image {
+    flex: 1 1 40%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Georgia', serif;
+    font-size: 2rem;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .wrap-text {
+    flex: 1 1 60%;
+    background-color: #df6e9e;
+    color: white;
+    padding: 2rem;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+
+
   .footer {
     background-color: #222;
     color: white;
