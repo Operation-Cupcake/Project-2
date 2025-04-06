@@ -76,3 +76,19 @@
     cursor: pointer;
   }
   
+  .intro {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .intro h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .intro p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
