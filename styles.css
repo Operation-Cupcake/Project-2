@@ -123,3 +123,40 @@
     font-size: 1rem;
     line-height: 1.6;
   }
+
+  .footer {
+    background-color: #222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem;
+  }
+  
+  .footer-left,
+  .footer-right {
+    flex: 1 1 45%;
+  }
+  
+  .footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .footer-icon {
+    height: 30px;
+    margin-right: 1rem;
+  }
+  
+  .footer-logo {
+    height: 40px;
+    margin-top: 1rem;
+  }
