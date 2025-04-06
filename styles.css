@@ -2,15 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
   
-  body {
-    font-family: 'Arial', sans-serif;
-    background-color: #fff0f5;
-    color: #333;
-  }
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fff0f5;
+  color: #333;
+}
 
-  .navbar {
+.navbar {
     background-color: #f7b7d7;
     padding: 1rem;
     display: flex;
@@ -20,20 +20,20 @@
     position: sticky;
     top: 0;
     z-index: 1000;
-  }
-  
-  .hamburger-container {
+}
+
+.hamburger-container {
     display: flex;
     align-items: center;
-  }
+}
   
-  .menu-icon {
+.menu-icon {
     font-size: 1.8rem;
     cursor: pointer;
     margin-right: 1rem;
-  }
+}
   
-  .hamburger-menu {
+.hamburger-menu {
     display: none;
     position: absolute;
     top: 60px;
@@ -43,370 +43,285 @@
     border-radius: 10px;
     padding: 1rem;
     z-index: 999;
-  }
+}
   
-  .menu-links li {
+.menu-links li {
     list-style: none;
     margin: 0.5rem 0;
-  }
+}
   
-  .menu-links a {
+.menu-links a {
     text-decoration: none;
     color: #333;
-  }
+}
   
-  .logo-wrapper {
+.logo-wrapper {
     display: flex;
     align-items: center;
     gap: 10px;
-  }
+}
   
-  .nav-logo {
+.nav-logo {
     height: 40px;
-  }
+}
   
-  .logo-text {
+.logo-text {
     font-size: 1.8rem;
     font-weight: bold;
     letter-spacing: 0.05em;
-  }
+}
   
-  .cart-icon {
+.cart-icon {
     height: 30px;
     cursor: pointer;
-  }
+}
   
-  .intro {
+.intro {
     padding: 2rem;
     max-width: 900px;
     margin: auto;
-  }
+}
   
-  .intro h1 {
+.intro h1 {
     text-align: center;
     font-size: 1.8rem;
     margin-bottom: 1rem;
-  }
+}
   
-  .intro p {
+.intro p {
     margin-bottom: 1rem;
     line-height: 1.6;
-  }
+}
 
-  .weddings {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 2rem;
-    border-radius: 1.5rem;
-    overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .wedding-image {
-    flex: 1 1 40%;
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Georgia', serif;
-    font-size: 2rem;
-    padding: 2rem;
-    text-align: center;
-  }
-  
-  .wedding-text {
+
+.weddings,
+.birthdays,
+.engagements,
+.themes,
+.anniversaries,
+.graduations,
+.holidays,
+.babies,
+.wraps {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2rem;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature-image {
+  flex: 1 1 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  font-family: 'Georgia', serif;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+  position: relative;
+  min-height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+
+.feature-image h2 {
+  position: absolute;
+  z-index: 2;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+}
+
+.feature-image::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.wedding-bg {
+  background-image: url("media/wedding.png"); 
+}
+
+.birthday-bg {
+    background-image: url("media/birthday.png"); 
+}
+
+.engagement-bg {
+    background-image: url("media/engagement.png"); 
+}
+
+.theme-bg {
+    background-image: url("media/theme.jpg.webp"); 
+}
+
+.anniversary-bg {
+    background-image: url("media/anniversary.png"); 
+}
+
+.graduation-bg {
+    background-image: url("media/graduation.png"); 
+}
+
+.holiday-bg {
+    background-image: url("media/holiday.png"); 
+}
+
+.baby-bg {
+    background-image: url("media/baby.png"); 
+}
+
+.wrap-bg {
+    background-image: url("media/wrap.png"); 
+}
+
+.wedding-text {
+  flex: 1 1 60%;
+  background-color: #df6e9e;
+  color: white;
+  padding: 2rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.birthday-text {
     flex: 1 1 60%;
     background-color: #df6e9e;
     color: white;
     padding: 2rem;
     font-size: 1rem;
     line-height: 1.6;
-  }
+}
 
-  .birthdays {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 2rem;
-    border-radius: 1.5rem;
-    overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .birthday-image {
-    flex: 1 1 40%;
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Georgia', serif;
-    font-size: 2rem;
-    padding: 2rem;
-    text-align: center;
-  }
-  
-  .birthday-text {
+.engagement-text {
     flex: 1 1 60%;
     background-color: #df6e9e;
     color: white;
     padding: 2rem;
     font-size: 1rem;
     line-height: 1.6;
-  }
+}
 
-  .engagements {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 2rem;
-    border-radius: 1.5rem;
-    overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .engagement-image {
-    flex: 1 1 40%;
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Georgia', serif;
-    font-size: 2rem;
-    padding: 2rem;
-    text-align: center;
-  }
-  
-  .engagement-text {
+.theme-text {
     flex: 1 1 60%;
     background-color: #df6e9e;
     color: white;
     padding: 2rem;
     font-size: 1rem;
     line-height: 1.6;
-  }
+}
 
-  .themes {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 2rem;
-    border-radius: 1.5rem;
-    overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .theme-image {
-    flex: 1 1 40%;
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Georgia', serif;
-    font-size: 2rem;
-    padding: 2rem;
-    text-align: center;
-  }
-  
-  .theme-text {
+.anniversary-text {
     flex: 1 1 60%;
     background-color: #df6e9e;
     color: white;
     padding: 2rem;
     font-size: 1rem;
     line-height: 1.6;
-  }
+}
 
-  .anniversaries {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 2rem;
-    border-radius: 1.5rem;
-    overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .anniversary-image {
-    flex: 1 1 40%;
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Georgia', serif;
-    font-size: 1.7rem;
-    padding: 2rem;
-    text-align: center;
-  }
-  
-  .anniversary-text {
+.graduation-text {
     flex: 1 1 60%;
     background-color: #df6e9e;
     color: white;
     padding: 2rem;
     font-size: 1rem;
     line-height: 1.6;
-  }
+}
 
-  .graduations {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 2rem;
-    border-radius: 1.5rem;
-    overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .graduation-image {
-    flex: 1 1 40%;
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Georgia', serif;
-    font-size: 1.7rem;
-    padding: 2rem;
-    text-align: center;
-  }
-  
-  .graduation-text {
+.holiday-text {
     flex: 1 1 60%;
     background-color: #df6e9e;
     color: white;
     padding: 2rem;
     font-size: 1rem;
     line-height: 1.6;
-  }
+}
 
-  .holidays {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 2rem;
-    border-radius: 1.5rem;
-    overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .holiday-image {
-    flex: 1 1 40%;
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Georgia', serif;
-    font-size: 2rem;
-    padding: 2rem;
-    text-align: center;
-  }
-  
-  .holiday-text {
+.baby-text {
     flex: 1 1 60%;
     background-color: #df6e9e;
     color: white;
     padding: 2rem;
     font-size: 1rem;
     line-height: 1.6;
-  }
+}
 
-  .babies {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 2rem;
-    border-radius: 1.5rem;
-    overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .baby-image {
-    flex: 1 1 40%;
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Georgia', serif;
-    font-size: 2rem;
-    padding: 2rem;
-    text-align: center;
-  }
-  
-  .baby-text {
+.wrap-text {
     flex: 1 1 60%;
     background-color: #df6e9e;
     color: white;
     padding: 2rem;
     font-size: 1rem;
     line-height: 1.6;
-  }
+}
 
-  .wraps {
+.weddings:nth-of-type(even),
+.birthdays:nth-of-type(even),
+.engagements:nth-of-type(even),
+.themes:nth-of-type(even),
+.anniversaries:nth-of-type(even),
+.graduations:nth-of-type(even),
+.holidays:nth-of-type(even),
+.babies:nth-of-type(even),
+.wraps:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+.footer {
+    background-color: #333;
+    color: #d3d3d3;
+    padding: 1em;
     display: flex;
-    flex-wrap: wrap;
-    margin: 2rem;
-    border-radius: 1.5rem;
-    overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .wrap-image {
-    flex: 1 1 40%;
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    font-family: 'Georgia', serif;
-    font-size: 2rem;
-    padding: 2rem;
+    gap: 1em;
+    margin-top: auto;
     text-align: center;
-  }
-  
-  .wrap-text {
-    flex: 1 1 60%;
-    background-color: #df6e9e;
-    color: white;
-    padding: 2rem;
-    font-size: 1rem;
-    line-height: 1.6;
-  }
+}
 
-
-
-  .footer {
-    background-color: #222;
-    color: white;
+.footer-left {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 2rem;
-  }
-  
-  .footer-left,
-  .footer-right {
-    flex: 1 1 45%;
-  }
-  
-  .footer-nav {
+    flex-direction: column;
+    gap: 0.25em;
+    align-items: center;
+}
+
+.footer-nav {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem 1rem;
-    margin-bottom: 1rem;
-  }
-  
-  .footer-nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 0.9rem;
-  }
-  
-  .footer-icon {
+    gap: 0.75em;
+    justify-content: center;
+}
+
+.footer-icon {
     height: 30px;
-    margin-right: 1rem;
-  }
-  
-  .footer-logo {
-    height: 40px;
-    margin-top: 1rem;
-  }
+    width: 30px;
+    object-fit: contain;
+    margin: 0 0.5em;
+}
+
+.footer-logo {
+    height: 30px;
+    object-fit: contain;
+}
+
+.footer-nav a {
+    color: #d3d3d3;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.85em;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.footer-right {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
