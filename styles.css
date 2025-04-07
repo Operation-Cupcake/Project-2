@@ -70,7 +70,7 @@ body {
 }
   
 .logo-text {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: bold;
     letter-spacing: 0.05em;
 }
@@ -122,7 +122,7 @@ body {
   align-items: center;
   padding: 2rem;
   font-family: 'Georgia', serif;
-  font-size: 2rem;
+  font-size: 1rem;
   text-align: center;
   color: white;
   position: relative;
