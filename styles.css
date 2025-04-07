@@ -3,13 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-  
+
 body {
-  font-family: 'Winky Sans', cursive, sans-serif;
-  font-weight: 1000;
-  background-image: url("media/background.png");
-  background-color: #fff0f5;
-  color: #000000;
+    font-family: 'Winky Sans', cursive, sans-serif;
+    font-weight: 1000;
+    background-image: url("media/background.png");
+    background-color: #fff0f5;
+    color: #000000;
 }
 
 .navbar {
@@ -28,13 +28,13 @@ body {
     display: flex;
     align-items: center;
 }
-  
+
 .menu-icon {
     font-size: 1.8rem;
     cursor: pointer;
     margin-right: 1rem;
 }
-  
+
 .hamburger-menu {
     display: none;
     position: absolute;
@@ -49,52 +49,52 @@ body {
 
 .hamburger-menu.show-menu {
     display: flex;
-  }
-  
+}
+
 .menu-links li {
     list-style: none;
     margin: 0.5rem 0;
 }
-  
+
 .menu-links a {
     text-decoration: none;
     color: #333;
 }
-  
+
 .logo-wrapper {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-  
+
 .nav-logo {
     height: 40px;
 }
-  
+
 .logo-text {
     font-family: 'Lobster', 'Brush Script MT', cursive;
     font-size: 2em;
     font-weight: 1000;
     letter-spacing: 0.05em;
 }
-  
+
 .cart-icon {
     height: 30px;
     cursor: pointer;
 }
-  
+
 .intro {
     padding: 2rem;
     max-width: 900px;
     margin: auto;
 }
-  
+
 .intro h1 {
     text-align: center;
     font-size: 1.8rem;
     margin-bottom: 1rem;
 }
-  
+
 .intro p {
     margin-bottom: 1rem;
     line-height: 1.6;
@@ -110,88 +110,88 @@ body {
 .holidays,
 .babies,
 .wraps {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 2rem;
-  border-radius: 1.5rem;
-  overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .feature-image {
-  flex: 1 1 40%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem;
-  font-family: 'Georgia', serif;
-  font-size: 1rem;
-  text-align: center;
-  color: white;
-  position: relative;
-  min-height: 300px;
-  background-size: cover;
-  background-position: center;
+    flex: 1 1 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    font-family: 'Georgia', serif;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    position: relative;
+    min-height: 300px;
+    background-size: cover;
+    background-position: center;
 }
 
 .feature-image h2 {
-  position: absolute;
-  z-index: 2;
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
-  padding: 1rem;
+    position: absolute;
+    z-index: 2;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+    padding: 1rem;
 }
 
 .feature-image::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.4);
-  z-index: 1;
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
 }
 
 .wedding-bg {
-  background-image: url("media/wedding.png"); 
+    background-image: url("media/wedding.png");
 }
 
 .birthday-bg {
-    background-image: url("media/birthday.png"); 
+    background-image: url("media/birthday.png");
 }
 
 .engagement-bg {
-    background-image: url("media/engagement.png"); 
+    background-image: url("media/engagement.png");
 }
 
 .theme-bg {
-    background-image: url("media/theme.jpg.webp"); 
+    background-image: url("media/theme.jpg.webp");
 }
 
 .anniversary-bg {
-    background-image: url("media/anniversary.png"); 
+    background-image: url("media/anniversary.png");
 }
 
 .graduation-bg {
-    background-image: url("media/graduation.png"); 
+    background-image: url("media/graduation.png");
 }
 
 .holiday-bg {
-    background-image: url("media/holiday.png"); 
+    background-image: url("media/holiday.png");
 }
 
 .baby-bg {
-    background-image: url("media/baby.png"); 
+    background-image: url("media/baby.png");
 }
 
 .wrap-bg {
-    background-image: url("media/wrap.png"); 
+    background-image: url("media/wrap.png");
 }
 
 .wedding-text {
-  flex: 1 1 60%;
-  background-color: #df6e9e;
-  color: white;
-  padding: 2rem;
-  font-size: 1rem;
-  line-height: 1.6;
+    flex: 1 1 60%;
+    background-color: #df6e9e;
+    color: white;
+    padding: 2rem;
+    font-size: 1rem;
+    line-height: 1.6;
 }
 
 .birthday-text {
@@ -266,18 +266,6 @@ body {
     line-height: 1.6;
 }
 
-.weddings:nth-of-type(even),
-.birthdays:nth-of-type(even),
-.engagements:nth-of-type(even),
-.themes:nth-of-type(even),
-.anniversaries:nth-of-type(even),
-.graduations:nth-of-type(even),
-.holidays:nth-of-type(even),
-.babies:nth-of-type(even),
-.wraps:nth-of-type(even) {
-  flex-direction: row-reverse;
-}
-
 .footer {
     background-color: #333;
     color: #d3d3d3;
@@ -334,57 +322,21 @@ body {
 }
 
 @media (min-width: 768px) {
-.navbar {
-    justify-content: space-between;
-}
-  
-.hamburger-menu {
-  position: absolute;
-  top: 70px;
-  left: 10px;
-  width: 200px;
-}
-  
-    .feature-image h2 {
-      font-size: 2.5rem;
-    }
-  
-    .feature-text,
-    .wedding-text,
-    .birthday-text,
-    .engagement-text,
-    .theme-text,
-    .anniversary-text,
-    .graduation-text,
-    .holiday-text,
-    .baby-text,
-    .wrap-text {
-      font-size: 1.1rem;
-      padding: 2.5rem;
-    }
-  
-    .intro h1 {
-      font-size: 2rem;
-    }
-  }
-  
-  @media (min-width: 992px) {
     .navbar {
-      padding: 1.5rem 3rem;
+        justify-content: space-between;
     }
-  
-    .logo-text {
-      font-size: 2rem;
+
+    .hamburger-menu {
+        position: absolute;
+        top: 70px;
+        left: 10px;
+        width: 200px;
     }
-  
-    .menu-links li {
-      font-size: 1rem;
-    }
-  
+
     .feature-image h2 {
-      font-size: 3rem;
+        font-size: 2.5rem;
     }
-  
+
     .feature-text,
     .wedding-text,
     .birthday-text,
@@ -395,20 +347,81 @@ body {
     .holiday-text,
     .baby-text,
     .wrap-text {
-      font-size: 1.2rem;
-      padding: 3rem;
+        font-size: 1.1rem;
+        padding: 2.5rem;
     }
-  
+
+    .weddings:nth-of-type(even),
+    .birthdays:nth-of-type(even),
+    .engagements:nth-of-type(even),
+    .themes:nth-of-type(even),
+    .anniversaries:nth-of-type(even),
+    .graduations:nth-of-type(even),
+    .holidays:nth-of-type(even),
+    .babies:nth-of-type(even),
+    .wraps:nth-of-type(even) {
+        flex-direction: row-reverse;
+    }
+
+    .weddings,
+    .birthdays,
+    .engagements,
+    .themes,
+    .anniversaries,
+    .graduations,
+    .holidays,
+    .babies,
+    .wraps {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .intro h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        padding: 1.5rem 3rem;
+    }
+
+    .logo-text {
+        font-size: 2rem;
+    }
+
+    .menu-links li {
+        font-size: 1rem;
+    }
+
+    .feature-image h2 {
+        font-size: 3rem;
+    }
+
+    .feature-text,
+    .wedding-text,
+    .birthday-text,
+    .engagement-text,
+    .theme-text,
+    .anniversary-text,
+    .graduation-text,
+    .holiday-text,
+    .baby-text,
+    .wrap-text {
+        font-size: 1.2rem;
+        padding: 3rem;
+    }
+
     .footer-nav a {
-      font-size: 1rem;
+        font-size: 1rem;
     }
-  
+
     .footer-logo {
-      height: 40px;
+        height: 40px;
     }
-  
+
     .footer-icon {
-      height: 35px;
-      width: 35px;
+        height: 35px;
+        width: 35px;
     }
-  }
+}
