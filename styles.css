@@ -101,7 +101,6 @@ body {
     line-height: 1.6;
 }
 
-
 .weddings,
 .birthdays,
 .engagements,
@@ -186,81 +185,17 @@ body {
     background-image: url("media/wrap.png");
 }
 
-.wedding-text {
-    flex: 1 1 60%;
-    background-color: #df6e9e;
-    color: white;
-    padding: 2rem;
-    font-size: 1rem;
-    line-height: 1.6;
-}
-
-.birthday-text {
-    flex: 1 1 60%;
-    background-color: #df6e9e;
-    color: white;
-    padding: 2rem;
-    font-size: 1rem;
-    line-height: 1.6;
-}
-
-.engagement-text {
-    flex: 1 1 60%;
-    background-color: #df6e9e;
-    color: white;
-    padding: 2rem;
-    font-size: 1rem;
-    line-height: 1.6;
-}
-
-.theme-text {
-    flex: 1 1 60%;
-    background-color: #df6e9e;
-    color: white;
-    padding: 2rem;
-    font-size: 1rem;
-    line-height: 1.6;
-}
-
-.anniversary-text {
-    flex: 1 1 60%;
-    background-color: #df6e9e;
-    color: white;
-    padding: 2rem;
-    font-size: 1rem;
-    line-height: 1.6;
-}
-
-.graduation-text {
-    flex: 1 1 60%;
-    background-color: #df6e9e;
-    color: white;
-    padding: 2rem;
-    font-size: 1rem;
-    line-height: 1.6;
-}
-
-.holiday-text {
-    flex: 1 1 60%;
-    background-color: #df6e9e;
-    color: white;
-    padding: 2rem;
-    font-size: 1rem;
-    line-height: 1.6;
-}
-
-.baby-text {
-    flex: 1 1 60%;
-    background-color: #df6e9e;
-    color: white;
-    padding: 2rem;
-    font-size: 1rem;
-    line-height: 1.6;
-}
-
+.wedding-text,
+.birthday-text,
+.engagement-text,
+.theme-text,
+.anniversary-text,
+.graduation-text,
+.holiday-text,
+.baby-text,
 .wrap-text {
     flex: 1 1 60%;
-    background-color: #df6e9e;
+    background-color: #f493c1;
     color: white;
     padding: 2rem;
     font-size: 1rem;
@@ -377,7 +312,7 @@ body {
         flex-wrap: wrap;
     }
 
-    .intro p{
+    .intro p {
         font-size: 1.3rem;
     }
 
