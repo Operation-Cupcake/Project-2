@@ -262,6 +262,10 @@ body {
         justify-content: space-between;
     }
 
+    .logo-text {
+        font-size: 2rem;
+    }
+
     .hamburger-menu {
         position: absolute;
         top: 70px;
@@ -324,10 +328,6 @@ body {
 @media (min-width: 992px) {
     .navbar {
         padding: 1.5rem 3rem;
-    }
-
-    .logo-text {
-        font-size: 2rem;
     }
 
     .menu-links li {
