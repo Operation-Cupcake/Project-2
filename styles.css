@@ -44,6 +44,10 @@ body {
     padding: 1rem;
     z-index: 999;
 }
+
+.hamburger-menu.show-menu {
+    display: flex;
+  }
   
 .menu-links li {
     list-style: none;
