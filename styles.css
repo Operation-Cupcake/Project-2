@@ -5,9 +5,11 @@
 }
   
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Winky Sans', cursive, sans-serif;
+  font-weight: 1000;
+  background-image: url("media/background.png");
   background-color: #fff0f5;
-  color: #333;
+  color: #000000;
 }
 
 .navbar {
@@ -70,8 +72,9 @@ body {
 }
   
 .logo-text {
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-family: 'Lobster', 'Brush Script MT', cursive;
+    font-size: 2em;
+    font-weight: 1000;
     letter-spacing: 0.05em;
 }
   
