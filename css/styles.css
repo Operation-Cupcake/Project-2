@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body styling*/
+body {
+    font-family: 'Winky Sans', cursive, sans-serif;
+    font-weight: 1000;
+    background-image: url("media/cupcake-seamless-pattern.png");
+    background-color: #fff0f5;
+    color: #000000;
+}
+
+/* h2 styling*/
+h2 {
+    align-content: center;
+    font-size: 2em;
+    text-align: center;
+    margin: 1rem;
+}
+
+/* p styling*/
+p {
+    margin: 1rem;
+}
+
+/* nav bar styling */
+.navbar {
+    background-color: #f493c1;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+}
+
+/* menu icon */
+.hamburger-container {
+    display: flex;
+    align-items: center;
+}
+
+/* menu icon styling */
+.menu-icon {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+
+
+/* logo icon styling  */
+.nav-logo {
+    height: 50px;
+}
+
+/* logo text styling */
+.logo-text {
+    font-family: 'Lobster', 'Brush Script MT', cursive;
+    font-size: 2.5em;
+    font-weight: 1000;
+    letter-spacing: 0.05em;
+}
+
+/* cart icon styling */
+.cart-icon {
+    height: 35px;
+    cursor: pointer;
+}
+
+/* footer styling */
+.footer {
+    background-color: #333;
+    color: #d3d3d3;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    margin-top: auto;
+    text-align: center;
+}
+
+/* styling for copyright */
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* text styling for footer nav element */
+.footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75em;
+    justify-content: center;
+}
+
+/* text styling for footer nav element */
+.footer-nav a {
+    color: #d3d3d3;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.85em;
+}
+
+/* styling for icons */
+.footer-icon {
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+    margin: 0 0.5em;
+    align-items: center;
+}
+
+/*  footer icon format styling */
+.footer-right {
+    display: flex;
+    align-items: center;
+    gap: 0.75em;
+}
+
+@media (min-width: 768px) {
+
+
+    @media (min-width: 992px) {
