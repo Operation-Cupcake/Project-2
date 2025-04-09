@@ -30,6 +30,7 @@ main#content {
     margin-right: auto;
     margin-top: 2rem;
     border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 /* h2 styling*/
@@ -45,7 +46,7 @@ h2 {
     background-color: #f493c1;
     border-radius: 0.75rem;
     overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -61,7 +62,7 @@ p:not(.copyright) {
     background-color: #f493c1;
     border-radius: 0.75rem;
     overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -222,9 +223,73 @@ p:not(.copyright) {
 }
 
 
+
+/* Tablet Styling */
+
 @media (min-width: 768px) {
 
-}
-@media (min-width: 992px) {
+    h2 {
+        font-size: 2.5em;
+        margin: 2rem; /* More margin */
+    }
 
+    p:not(.copyright) {
+        font-size: 1.5rem;
+        margin: 1.5rem 2rem; /* More horizontal margin */
+    }
+
+    .bakery {
+        width: 70%;
+        max-width: 650px;
+    }
+
+    .logo-text {
+        font-size: 2.2em;
+    }
+
+    .cart-icon {
+        display: block;
+        order: 3;
+        margin-left: 1.5rem;
+        height: 40px;
+        width: 40px;
+    }
+
+    /* --- Footer --- */
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.5em 1em;
+        gap: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .footer-left {
+        align-items: flex-start; /* Align text to the left */
+        gap: 0.5em;
+        text-align: left;
+    }
+
+    .footer-nav {
+        justify-content: flex-start;
+        gap: 0.5em 1em;
+    }
+
+    .footer-right {
+        gap: 2rem;
+    }
+
+    /* styling for icons */
+    .footer-icon {
+        height: 100px;
+        width: 60px;
+        object-fit: contain;
+        margin: 0 0.5em;
+        align-items: center;
+    }
+
+    .copyright {
+        text-align: left;
+    }
 }
