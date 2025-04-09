@@ -52,14 +52,52 @@ p {
 
 /* menu icon styling */
 .menu-icon {
-    font-size: 2rem;
+    font-size: 1.75rem;
     cursor: pointer;
     margin-right: 1rem;
 }
 
 
+/* container for menu links */
+.hamburger-menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1rem;
+    z-index: 999;
+    font-size: 2rem;
+}
+
+.hamburger-menu.show-menu {
+    display: flex;
+}
+
+.menu-links li {
+    list-style: none;
+    margin: 0.5 rem 0;
+}
+
+.menu-links a {
+    text-decoration: none;
+    color: #333;
+}
 
 
+.hamburger-container {
+    display: flex;
+    align-items: center;
+}
+
+
+/* menu icon */
+.hamburger-container {
+    display: flex;
+    align-items: center;
+}
 
 
 
@@ -67,8 +105,8 @@ p {
 /* logo icon styling  */
 .nav-logo {
     height: 50px;
-    top: 0;
-    z-index: 1000;
+    width: 50px;
+    object-fit: contain;
 }
 
 /* logo text styling */
@@ -79,9 +117,9 @@ p {
     letter-spacing: 0.05em;
 }
 
-/* cart icon styling */
+/* cart icon styling    change this for desktop layout*/
 .cart-icon {
-    height: 35px;
+    height: 0px;
     cursor: pointer;
 }
 
@@ -133,12 +171,13 @@ p {
 /*  footer icon format styling */
 .footer-right {
     display: flex;
-    gap: 0.75em;
-}
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 
-@media (min-width: 768px) {
+    @media (min-width: 768px) {
 
-}
-@media (min-width: 992px) {
+    }
+    @media (min-width: 992px) {
 
-}
+    }
