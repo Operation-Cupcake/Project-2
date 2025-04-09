@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 /* body styling*/
 body {
     font-family: 'Winky Sans', cursive, sans-serif;
@@ -26,6 +28,9 @@ p {
     margin: 1rem;
 }
 
+
+
+
 /* nav bar styling */
 .navbar {
     background-color: #f493c1;
@@ -38,10 +43,11 @@ p {
     top: 0;
 }
 
-/* menu icon */
-.hamburger-container {
+/* logo icon styling */
+.logo-wrapper {
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
 /* menu icon styling */
@@ -53,9 +59,16 @@ p {
 
 
 
+
+
+
+
+
 /* logo icon styling  */
 .nav-logo {
     height: 50px;
+    top: 0;
+    z-index: 1000;
 }
 
 /* logo text styling */
@@ -120,11 +133,12 @@ p {
 /*  footer icon format styling */
 .footer-right {
     display: flex;
-    align-items: center;
     gap: 0.75em;
 }
 
 @media (min-width: 768px) {
 
+}
+@media (min-width: 992px) {
 
-    @media (min-width: 992px) {
+}
