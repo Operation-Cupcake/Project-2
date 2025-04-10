@@ -403,35 +403,35 @@ ul {
 }
 
 .birthday-bg {
-    background-image: url("media/birthday.png");
+    background-image: url("../media/birthday.png");
 }
 
 .engagement-bg {
-    background-image: url("media/engagement.png");
+    background-image: url("../media/engagement.png");
 }
 
 .theme-bg {
-    background-image: url("media/theme.jpg");
+    background-image: url("../media/theme.jpg");
 }
 
 .anniversary-bg {
-    background-image: url("media/anniversary.png");
+    background-image: url("../media/anniversary.png");
 }
 
 .graduation-bg {
-    background-image: url("media/graduation.png");
+    background-image: url("../media/graduation.png");
 }
 
 .holiday-bg {
-    background-image: url("media/holiday.png");
+    background-image: url("../media/holiday.png");
 }
 
 .baby-bg {
-    background-image: url("media/baby.png");
+    background-image: url("../media/baby.png");
 }
 
 .wrap-bg {
-    background-image: url("media/wrap.png");
+    background-image: url("../media/wrap.png");
 }
 
 .wedding-text,
