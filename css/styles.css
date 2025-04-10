@@ -86,7 +86,7 @@ main#content {
     min-width: 100%;
 }
 
-.hamburger-menu.show {
+.hamburger-menu.show-menu {
     display: block;
 }
 
