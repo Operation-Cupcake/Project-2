@@ -86,6 +86,8 @@ main#content {
     width: auto;
     min-width: 100%;
     border-radius: 10px;
+    max-height: 70vh;
+    overflow-y: auto;
 }
 
 .hamburger-menu.show,
