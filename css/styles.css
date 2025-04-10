@@ -230,12 +230,12 @@ p:not(.copyright) {
 
     h2 {
         font-size: 2.5em;
-        margin: 2rem; /* More margin */
+        margin: 2rem;
     }
 
     p:not(.copyright) {
         font-size: 1.5rem;
-        margin: 1.5rem 2rem; /* More horizontal margin */
+        margin: 1.5rem 2rem;
     }
 
     .bakery {
@@ -249,13 +249,11 @@ p:not(.copyright) {
 
     .cart-icon {
         display: block;
-        order: 3;
-        margin-left: 1.5rem;
+        margin-right: 2rem;
         height: 40px;
         width: 40px;
     }
 
-    /* --- Footer --- */
     .footer {
         flex-direction: row;
         justify-content: space-between;
@@ -266,7 +264,7 @@ p:not(.copyright) {
     }
 
     .footer-left {
-        align-items: flex-start; /* Align text to the left */
+        align-items: flex-start;
         gap: 0.5em;
         text-align: left;
     }
@@ -280,7 +278,6 @@ p:not(.copyright) {
         gap: 2rem;
     }
 
-    /* styling for icons */
     .footer-icon {
         height: 100px;
         width: 60px;
@@ -289,7 +286,81 @@ p:not(.copyright) {
         align-items: center;
     }
 
+
     .copyright {
         text-align: left;
+    }
+}
+
+
+
+
+/* Desktop Styles  */
+
+@media (min-width: 992px) {
+
+    main#content {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    h2 {
+        font-size: 2em;
+        margin: 1rem 0;
+        padding: 1rem;
+    }
+
+    p:not(.copyright) {
+        font-size: 1.2rem;
+        margin: 2rem 0;
+        padding:
+    }
+
+    .bakery {
+        float: right;
+        margin-left: 20px;
+        width: auto;
+        height: auto;
+    }
+
+    .navbar {
+        padding: 0.75rem 3rem;
+    }
+
+    .logo-text {
+        font-size: 2.5em;
+    }
+
+    .menu-links {
+        gap: 2rem;
+    }
+
+    .menu-links a {
+        font-size: 1.5rem;
+    }
+
+    .cart-icon {
+        height: 50px;
+        width: 50px;
+        margin-right: 0.5rem;
+    }
+
+    .footer {
+        padding: 2em 3em;
+    }
+
+    .footer-nav a {
+        font-size: 0.9em;
+    }
+
+    .footer-icon {
+        height: 50px;
+        width: 50px;
+    }
+
+    .copyright {
+        font-size: 1rem;
     }
 }
