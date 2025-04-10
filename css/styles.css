@@ -326,6 +326,17 @@ ul {
         padding-right: 1rem;
     }
 
+    .bakery {
+        display: block;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;
+        padding: 0.5rem;
+        border-radius: 1rem;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+
     h2 {
         font-size: 2em;
         margin: 1rem 0;
@@ -334,13 +345,14 @@ ul {
         margin: 1rem auto;
     }
 
-    p:not(.copyright):not(.opening) {
-        font-size: 1.2rem;
-        margin-right: 10rem;
-        margin-left: 10rem;
-        padding: 1rem;
-        margin-bottom: 3rem;
-    }
+    p: not(. copyright): {
+    font-size: 1.2rem;
+    margin-right: 10rem;
+    margin-left: 10rem;
+    padding: 1rem;
+    margin-bottom: 3rem;
+    word-wrap: break-word;
+}
 
     ul {
         font-size: 1.2rem;
@@ -349,49 +361,51 @@ ul {
     }
 
     .bakery {
-        float: right;
         margin-left: 20px;
         width: auto;
         height: auto;
-    }
+        float: left;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        width: 50rem;
 
-    .navbar {
-        padding: 0.75rem 3rem;
-    }
+        .navbar {
+            padding: 0.75rem 3rem;
+        }
 
-    .logo-text {
-        font-size: 2.5em;
-    }
+        .logo-text {
+            font-size: 2.5em;
+        }
 
-    .menu-links {
-        gap: 2rem;
-    }
+        .menu-links {
+            gap: 2rem;
+        }
 
-    .menu-links a {
-        font-size: 1.5rem;
-    }
+        .menu-links a {
+            font-size: 1.5rem;
+        }
 
-    .cart-icon {
-        height: 50px;
-        width: 50px;
-        margin-right: 0.5rem;
-    }
+        .cart-icon {
+            height: 50px;
+            width: 50px;
+            margin-right: 0.5rem;
+        }
 
-    .footer {
-        padding: 2em 3em;
-    }
+        .footer {
+            padding: 2em 3em;
+        }
 
-    .footer-nav a {
-        font-size: 0.9em;
-    }
+        .footer-nav a {
+            font-size: 0.9em;
+        }
 
-    .footer-icon {
-        height: 50px;
-        width: 50px;
-    }
+        .footer-icon {
+            height: 50px;
+            width: 50px;
+        }
 
-    .copyright {
-        font-size: 1rem;
+        .copyright {
+            font-size: 1rem;
+        }
     }
 }
-
