@@ -41,7 +41,6 @@ h2 {
     margin: 1rem;
     display: flex;
     flex-direction: column;
-    margin: 1rem;
     padding: 0.75rem;
     background-color: #f493c1;
     border-radius: 0.75rem;
@@ -67,7 +66,6 @@ p:not(.copyright) {
 
 /* p styling*/
 ul {
-    margin-bottom: 2em;
     font-size: 1.1rem;
     color: #333;
     display: flex;
@@ -339,20 +337,19 @@ ul {
 
     h2 {
         font-size: 2em;
-        margin: 1rem 0;
         padding: 1rem;
         max-width: 50rem;
         margin: 1rem auto;
     }
 
-    p: not(. copyright): {
-    font-size: 1.2rem;
-    margin-right: 10rem;
-    margin-left: 10rem;
-    padding: 1rem;
-    margin-bottom: 3rem;
-    word-wrap: break-word;
-}
+    p:not(.copyright) {
+        font-size: 1.2rem;
+        margin-right: 10rem;
+        margin-left: 10rem;
+        padding: 1rem;
+        margin-bottom: 3rem;
+        word-wrap: break-word;
+    }
 
     ul {
         font-size: 1.2rem;
@@ -362,7 +359,6 @@ ul {
 
     .bakery {
         margin-left: 20px;
-        width: auto;
         height: auto;
         float: left;
         margin-right: 1rem;
