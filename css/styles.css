@@ -52,7 +52,6 @@ h2 {
 
 /* p styling*/
 p:not(.copyright) {
-    margin-bottom: 2em;
     font-size: 1.1rem;
     color: #333;
     display: flex;
@@ -74,7 +73,7 @@ ul {
     display: flex;
     flex-direction: column;
     margin: 2rem;
-    padding: 1rem;
+    padding: 2rem;
     background-color: #f493c1;
     border-radius: 0.75rem;
     overflow: hidden;
@@ -319,6 +318,7 @@ ul {
 
 @media (min-width: 992px) {
 
+
     main#content {
         margin-left: auto;
         margin-right: auto;
@@ -330,12 +330,16 @@ ul {
         font-size: 2em;
         margin: 1rem 0;
         padding: 1rem;
+        max-width: 50rem;
+        margin: 1rem auto;
     }
 
-    p:not(.copyright) {
+    p:not(.copyright):not(.opening) {
         font-size: 1.2rem;
-        margin: 2rem 0;
-        padding:
+        margin-right: 10rem;
+        margin-left: 10rem;
+        padding: 1rem;
+        margin-bottom: 3rem;
     }
 
     ul {
@@ -390,3 +394,4 @@ ul {
         font-size: 1rem;
     }
 }
+
