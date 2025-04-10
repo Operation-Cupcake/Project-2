@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* body styling*/
+body {
+    font-family: 'Winky Sans', cursive, sans-serif;
+    font-weight: 1000;
+    background-image: url("../media/background.png");
+    background-color: #fff0f5;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures body takes at least full viewport height */
+}
+
+main#content {
+    flex-grow: 1; /* Allows the main content to expand and push the footer down */
+}
+
+.bakery {
+    display: block;
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 2rem;
+}
+
+/* h2 styling*/
+h2 {
+    align-content: center;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0.75rem;
+    background-color: #f493c1;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/* p styling*/
+p:not(.copyright) {
+    font-size: 1.1rem;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    padding: 1rem;
+    background-color: #f493c1;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+ul {
+    font-size: 1.1rem;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: #f493c1;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+ul.menu-links {
+    font-size: 2rem;
+    color: #333;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    background-color: #f493c1;
+    border-radius: 0.75rem;
+    border: 1px solid black;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/* nav bar styling */
+.navbar {
+    background-color: #f493c1;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+}
+
+/* logo icon styling */
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* menu icon styling */
+.menu-icon {
+    font-size: 1.75rem;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+
+/* container for menu links */
+.hamburger-menu {
+    display: none;
+    position: absolute;
+    top: 4.5rem;
+    left: 1rem;
+    border-radius: 10px;
+    padding: 1rem;
+    z-index: 999;
+    font-size: 1.5rem;
+}
+
+.hamburger-menu.show-menu {
+    display: flex;
+}
+
+.menu-links li {
+    list-style: none;
+    margin: 0.25rem 0;
+}
+
+.menu-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+/* menu icon */
+.hamburger-container {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+/* logo icon styling  */
+.nav-logo {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+}
+
+/* logo text styling */
+.logo-text {
+    font-family: 'Lobster', 'Brush Script MT', cursive;
+    font-size: 2em;
+    font-weight: 1000;
+    letter-spacing: 0.05em;
+}
+
+/* cart icon styling    change this for desktop layout*/
+.cart-icon {
+    height: 0px;
+    cursor: pointer;
+}
+
+
+
+
+/* footer styling */
+.footer {
+    background-color: #333;
+    color: #d3d3d3;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto;
+    text-align: center;
+}
+
+/* styling for copyright */
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* text styling for footer nav element */
+.footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75em;
+    justify-content: center;
+}
+
+/* text styling for footer nav element */
+.footer-nav a {
+    color: #d3d3d3;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.85em;
+}
+
+/* styling for icons */
+.footer-icon {
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+    margin: 0 0.5em;
+    align-items: center;
+}
+
+/*  footer icon format styling */
+.footer-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.copyright {
+    font-size: 1rem;
+    color: gray;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Tablet Styling */
+
+@media (min-width: 768px) {
+    h2 {
+        font-size: 2.5em;
+        margin: 2rem;
+    }
+
+    p:not(.copyright) {
+        font-size: 1.5rem;
+        margin: 1.5rem 2rem;
+    }
+
+    ul {
+        font-size: 1.5rem;
+        margin: 1.5rem 2rem;
+    }
+
+    .bakery {
+        width: 70%;
+        max-width: 650px;
+    }
+
+    .logo-text {
+        font-size: 2.2em;
+    }
+
+    .cart-icon {
+        display: block;
+        margin-right: 2rem;
+        height: 40px;
+        width: 40px;
+    }
+
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.5em 1em;
+        gap: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .footer-left {
+        align-items: flex-start;
+        gap: 0.5em;
+        text-align: left;
+    }
+
+    .footer-nav {
+        justify-content: flex-start;
+        gap: 0.5em 1em;
+    }
+
+    .footer-right {
+        gap: 2rem;
+    }
+
+    .footer-icon {
+        height: 100px;
+        width: 60px;
+        object-fit: contain;
+        margin: 0 0.5em;
+        align-items: center;
+    }
+
+
+    .copyright {
+        text-align: left;
+    }
+}
+
+
+
+
+/* Desktop Styles  */
+
+@media (min-width: 992px) {
+    main#content {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .bakery {
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;
+        padding: 0.5rem;
+        border-radius: 1rem;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    h2 {
+        font-size: 2em;
+        padding: 1rem;
+        max-width: 50rem;
+        margin: 1rem auto;
+    }
+
+    p:not(.copyright) {
+        font-size: 1.2rem;
+        margin-right: 10rem;
+        margin-left: 10rem;
+        padding: 1rem;
+        margin-bottom: 3rem;
+        word-wrap: break-word;
+    }
+
+    ul {
+        font-size: 1.2rem;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 60rem;
+    }
+
+    .bakery {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        height: auto;
+        float: left;
+        margin-bottom: 1rem;
+        max-width: 60rem;
+    }
+
+    .navbar {
+        padding: 0.75rem 3rem;
+    }
+
+    .logo-text {
+        font-size: 2.5em;
+    }
+
+    .menu-links a {
+        font-size: 1.5rem;
+    }
+
+    .cart-icon {
+        height: 50px;
+        width: 50px;
+        margin-right: 0.5rem;
+    }
+
+    .footer {
+        padding: 2em 3em;
+    }
+
+    .footer-nav a {
+        font-size: 0.9em;
+
+    }
+
+    .footer-right{
+        justify-content: flex-end;
+        margin-left: auto;
+        gap: 1rem; /* optional: space between icons */
+    }
+
+
+    .footer-icon {
+        height: 50px;
+        width: 50px;
+    }
+
+    .copyright {
+        font-size: 1rem;
+    }
+
+}
