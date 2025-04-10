@@ -332,6 +332,107 @@ ul {
     background-color: #e077b0;
 }
 
+.weddings,
+.birthdays,
+.engagements,
+.themes,
+.anniversaries,
+.graduations,
+.holidays,
+.babies,
+.wraps {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature-image {
+    flex: 1 1 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    font-family: 'Georgia', serif;
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    position: relative;
+    min-height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.feature-image h2 {
+    position: absolute;
+    z-index: 2;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+    padding: 1rem;
+}
+
+.feature-image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+.wedding-bg {
+    background-image: url("media/wedding.png");
+}
+
+.birthday-bg {
+    background-image: url("media/birthday.png");
+}
+
+.engagement-bg {
+    background-image: url("media/engagement.png");
+}
+
+.theme-bg {
+    background-image: url("media/theme.jpg.webp");
+}
+
+.anniversary-bg {
+    background-image: url("media/anniversary.png");
+}
+
+.graduation-bg {
+    background-image: url("media/graduation.png");
+}
+
+.holiday-bg {
+    background-image: url("media/holiday.png");
+}
+
+.baby-bg {
+    background-image: url("media/baby.png");
+}
+
+.wrap-bg {
+    background-image: url("media/wrap.png");
+}
+
+.wedding-text,
+.birthday-text,
+.engagement-text,
+.theme-text,
+.anniversary-text,
+.graduation-text,
+.holiday-text,
+.baby-text,
+.wrap-text {
+    flex: 1 1 60%;
+    background-color: #f493c1;
+    color: white;
+    padding: 2rem;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
 /* MEDIA QUERIES */
 @media (min-width: 600px) {
     .container {
@@ -390,6 +491,61 @@ ul {
     .copyright {
         text-align: left;
     }
+
+    .logo-text {
+        font-size: 2rem;
+    }
+
+    .feature-image h2 {
+        font-size: 2.5rem;
+    }
+
+    .feature-text,
+    .wedding-text,
+    .birthday-text,
+    .engagement-text,
+    .theme-text,
+    .anniversary-text,
+    .graduation-text,
+    .holiday-text,
+    .baby-text,
+    .wrap-text {
+        font-size: 1.1rem;
+        padding: 2.5rem;
+    }
+
+    .weddings:nth-of-type(even),
+    .birthdays:nth-of-type(even),
+    .engagements:nth-of-type(even),
+    .themes:nth-of-type(even),
+    .anniversaries:nth-of-type(even),
+    .graduations:nth-of-type(even),
+    .holidays:nth-of-type(even),
+    .babies:nth-of-type(even),
+    .wraps:nth-of-type(even) {
+        flex-direction: row-reverse;
+    }
+
+    .weddings,
+    .birthdays,
+    .engagements,
+    .themes,
+    .anniversaries,
+    .graduations,
+    .holidays,
+    .babies,
+    .wraps {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .intro p {
+        font-size: 1.3rem;
+    }
+
+    .intro h1 {
+        font-size: 2.5rem;
+    }
 }
 
 @media (min-width: 992px) {
@@ -436,4 +592,23 @@ ul {
         height: 50px;
         width: 50px;
     }
+
+    .feature-image h2 {
+        font-size: 3rem;
+    }
+
+    .feature-text,
+    .wedding-text,
+    .birthday-text,
+    .engagement-text,
+    .theme-text,
+    .anniversary-text,
+    .graduation-text,
+    .holiday-text,
+    .baby-text,
+    .wrap-text {
+        font-size: 1.2rem;
+        padding: 3rem;
+    }
+
 }
