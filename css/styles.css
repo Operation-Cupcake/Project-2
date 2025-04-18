@@ -476,6 +476,8 @@ ul {
     max-width: 120px;
     padding: 10px;
     font-size: 1em;
+    margin: 0 auto;
+    display: block;
   }
 
   .product-info label,
