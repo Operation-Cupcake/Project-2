@@ -470,6 +470,31 @@ ul {
     }
 }
 
+@media (max-width: 599px) {
+  .quantity-box {
+    width: 100%;
+    max-width: 120px;
+    padding: 10px;
+    font-size: 1em;
+  }
+
+  .product-info label,
+  .product-info input {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .product {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .product-image {
+    align-self: center;
+  }
+}
+
 @media (min-width: 768px) {
     h2 {
         font-size: 2.5em;
