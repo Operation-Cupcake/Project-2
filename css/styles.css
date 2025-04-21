@@ -473,7 +473,6 @@ ul {
 @media (max-width: 599px) {
   .quantity-box {
     width: 100%;
-    max-width: 120px;
     padding: 10px;
     font-size: 1em;
     margin: 0 auto;
