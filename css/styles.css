@@ -477,6 +477,7 @@ ul {
     font-size: 1em;
     margin: 0 auto;
     display: block;
+    height: 48px;
   }
 
   .product-info label,
